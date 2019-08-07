@@ -1,7 +1,6 @@
 # OBD Smart Dash
 
 ![Intro picture](/pictures/1.PNG)
-Format: ![Alt Text](url)
 
 ## Description
 
@@ -19,6 +18,8 @@ Arduino Mega
 Raspberry Pi B running Raspian
   - POGO pin touch display
   
+![Intro picture](/pictures/4.PNG)
+
 ---
   
 # Modules
@@ -28,10 +29,17 @@ Raspberry Pi B running Raspian
 The Arduino Mega served as the brain of the system and stored all onboard data until storage capacity was 95% filled up. Data would then be deleted starting with the oldest records. Polling rate of the sensors was set to every half second. 
 
 
+
+
 ## Satellite Sensors/Loggers
+
 Each Arduino Uno performed one task per board:
-  - Debug information from the data logger to the LCD screen 
+  - Gather data via obd and pass it on to the data logger while also debugging information directly to the LCD screen 
+![Intro picture](/pictures/5.PNG)
+
   - gather GPS data and transfer it to the data logger
+![Intro picture](/pictures/6.PNG)
+
   - gather acceleromete data and pass it on to the data logger
 
 
