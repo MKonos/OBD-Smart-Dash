@@ -18,7 +18,7 @@ Arduino Mega
 Raspberry Pi B running Raspian
   - POGO pin touch display
   
-![Intro picture](/pictures/4.PNG)
+![Intro picture](/pictures/4.jpg)
 
 ---
   
@@ -38,7 +38,7 @@ Each Arduino Uno performed one task per board:
 ![Intro picture](/pictures/5.PNG)
 
   - gather GPS data and transfer it to the data logger
-![Intro picture](/pictures/6.PNG)
+![Intro picture](/pictures/6.png)
 
   - gather acceleromete data and pass it on to the data logger
 
