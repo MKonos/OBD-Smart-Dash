@@ -24,6 +24,8 @@ Raspberry Pi B running Raspian
   
 # Modules
 
+---
+
 ## Data Logger 
 
 The Arduino Mega served as the brain of the system and stored all onboard data until storage capacity was 95% filled up. Data would then be deleted starting with the oldest records. Polling rate of the sensors was set to every half second. 
