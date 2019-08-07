@@ -1,6 +1,6 @@
 # OBD Smart Dash
 
-![GitHub Logo](/pictures/1.png)
+![Intro picture](/pictures/1.PNG)
 Format: ![Alt Text](url)
 
 ## Description
